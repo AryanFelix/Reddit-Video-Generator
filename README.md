@@ -2,6 +2,8 @@
 
 Generate short-form videos from Reddit content and optionally upload them to YouTube. This repo contains Python scripts for fetching/formatting text, generating audio, composing video, and (optionally) uploading to YouTube.
 
+👉 Check out the results of this program on my YouTube channel: [Have You Reddit Yet?](https://www.youtube.com/@HaveYouRedditYet/shorts)
+
 ---
 
 ## Features
