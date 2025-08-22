@@ -23,6 +23,7 @@ ENV/
 # --- Logs & misc ---
 *.log
 .DS_Store
+*.cmd
 
 # --- Credentials/Secrets ---
 .env
