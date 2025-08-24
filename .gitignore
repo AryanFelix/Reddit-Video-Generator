@@ -24,6 +24,8 @@ ENV/
 *.log
 .DS_Store
 *.cmd
+*.srt
+*.txt
 
 # --- Credentials/Secrets ---
 .env

@@ -58,8 +58,12 @@ def main():
     print("redditQuestion: ", redditQuestion)
     print("story: ", story)
 
-    textToSpeechEngine = TextToSpeech()
-    textToSpeechEngine.synthesize(story, audioOutputFileName, 1.25)
+    textToSpeech = TextToSpeech(
+        voice_sample="voiceSample2.wav",
+        exaggeration=0.6,
+        cfg_weight=0.3
+    )
+    textToSpeech.synthesize(story, audioOutputFileName, speed = 1)
 
     redditTemplateVideo = random.choice(redditTemplateVideos)
     processor = VideoProcessor(redditTemplateVideo, audioOutputFileName, finalOutputFileName, redditQuestion)
